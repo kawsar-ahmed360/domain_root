@@ -1,0 +1,8 @@
+
+                                            @php
+                                                $url = Request::url();
+                                                $parse = parse_url($url);
+
+                                            @endphp
+
+https://{{$parse['host']}}/
